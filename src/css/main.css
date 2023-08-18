@@ -1,0 +1,110 @@
+.firt-section{
+    text-align: center
+}
+
+.firt-section img {
+    width: 304px;
+    height: 225px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.firt-section .text {
+    padding: 30px;
+}
+
+.firt-section .text h1 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--font-family-title-text);
+    color: var(--very-dark-blue);
+    line-height: 36px;
+    margin-bottom: 24px;
+}
+
+.firt-section .text p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--font-family-title-text);
+    color: var(--very-dark-blue);
+    line-height: 21px;
+    margin-bottom: 32px;
+}
+
+.firt-section form input {
+    width: 304px;
+    height: 40px;
+    margin-bottom: 16px;
+}
+
+.firt-section form input::placeholder {
+    color: var(--very-dark-blue);
+    padding: 0 20px;
+}
+
+.firt-section form button {
+    width: 304px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: var(--bright-blue);
+    color: var(--light-grayish-blue);
+    font-family: var(--font-family-title-button-links);
+    border: none;
+    box-shadow: 2px 2px 2px var(--desaturated-blue);
+    margin-bottom: 90px;
+    transition: .3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    .firt-section {
+        height: 75vh;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .firt-section .text {
+        max-width: 600px;
+    }
+
+    .firt-section img {
+        width: 640px;
+        height: 474px;
+        margin-top: 0;
+    }
+
+    .firt-section form {
+        display: flex;
+        gap: 10px;
+    }
+
+    .firt-section form button {
+        width: 200px;
+        height: 45px;
+    }
+
+    .firt-section form input {
+        width: 320px;
+        height: 45px;
+    }
+
+    .firt-section .text h1 {
+        font-size: 35px;
+        line-height: 60px;
+        font-family: var(--font-family-title-button-links);
+        margin-bottom: 15px;
+    }
+
+    .firt-section .text p {
+        font-size: 17px;
+        line-height: 24px;
+        margin-bottom: 40px;
+    }
+
+    .firt-section form button:hover {
+        background-color: #6C9BFF;
+    }
+    
+}

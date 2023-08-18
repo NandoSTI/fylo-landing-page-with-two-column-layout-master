@@ -1,0 +1,38 @@
+.container {
+    padding: 24px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 24px;
+}
+
+.nav {
+    font-family: var(--font-family-title-button-links);
+    font-weight: 400;
+    color: var(--very-dark-blue);
+    font-size: 12px;
+    display: flex;
+    gap: 24px;
+}
+
+@media(min-width: 768px) {
+    .header {
+        padding: 36px;
+    }
+
+    .logo {
+        width: 163px;
+        height: 49px;
+    }
+
+    .nav {
+        font-size: 16px;
+        gap: 57px;
+    }
+}
