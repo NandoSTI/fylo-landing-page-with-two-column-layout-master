@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     font-size: 16px;
     background-color: #FFFFFF;

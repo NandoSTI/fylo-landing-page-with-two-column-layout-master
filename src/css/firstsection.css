@@ -35,6 +35,7 @@
     width: 304px;
     height: 40px;
     margin-bottom: 16px;
+    padding-left: 20px;
 }
 
 .firt-section form input::placeholder {
@@ -58,7 +59,7 @@
 
 @media (min-width: 768px) {
     .firt-section {
-        height: 75vh;
+        height: 80vh;
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
@@ -107,5 +108,6 @@
     .firt-section form button:hover {
         background-color: #6C9BFF;
     }
+    
     
 }
