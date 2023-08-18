@@ -1,0 +1,89 @@
+.support {
+    background-color: var(--bg-support);
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.support .text-support h2 {
+    font-family: var(--font-family-title-button-links);
+    color: var(--text-support-footer);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.support .text-support p {
+    font-family: var(--font-family-title-text);
+    color: var(--text-support-footer);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 24px;
+}
+
+.support form input {
+    width: 240px;
+    height: 32px;
+    padding-left: 20px;
+    margin-bottom: 8px;
+}
+
+.support form input::placeholder {
+    color: var(--very-dark-blue);
+    font-family: var(--font-family-title-button-links);
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.support form button {
+    width: 240px;
+    height: 32px;
+    background-color: var(--bright-blue);
+    font-family: var(--font-family-title-button-links);
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--text-support-footer);
+    border: none;
+    transition: .3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    .support {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        gap: 227px;
+    }
+
+    .support .text-support h2 {
+        font-size: 32px;
+        line-height: 48px;
+        margin-bottom: 17px;
+    }
+
+    .support .text-support p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .support form input {
+        width: 480px;
+        height: 48px;
+    }
+
+    .support form input::placeholder {
+        font-size: 12px;
+    }
+
+    .support form button {
+        width: 200px;
+        height: 48px;
+    }
+
+    .support form button:hover {
+        background-color: #6C9BFF;;
+    }
+
+    
+}
