@@ -1,5 +1,5 @@
 .firt-section{
-    text-align: center
+    text-align: center;
 }
 
 .firt-section img {
@@ -63,6 +63,7 @@
         flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
+        text-align: left;
     }
 
     .firt-section .text {

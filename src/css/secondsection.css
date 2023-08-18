@@ -1,0 +1,111 @@
+.second-section {
+    text-align: center;
+    background-color: #F8F8FE;;
+}
+
+.second-section img {
+    width: 320px;
+    height: 241px;
+    margin-bottom: 87px;
+}
+
+.second-section .second-text {
+    padding: 20px;
+}
+
+.second-section .second-text h2 {
+    font-family: var(--font-family-title-button-links);
+    color: var(--very-dark-blue);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.second-section .second-text p {
+    font-family: var(--font-family-title-text);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 16px;
+}
+
+.second-section .second-text .link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    margin-top: 36px;
+}
+
+.second-section .second-text .link a {
+    color: var(--moderate-cyan);
+    font-family: var(--font-family-title-text);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.second-section .second-text .link img {
+    width: 18px;
+    height: 18px;
+}
+
+.second-section .second-text .link ::after {
+    content: '';
+    width: 120px;
+    height: 1px;
+    background-color: var(--moderate-cyan);
+    display: block;
+    margin: 0 auto;
+}
+
+.second-section .testimonials {
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    width: 320px;
+    height: 169px;
+    padding: 20px;
+    margin-bottom: 90px;
+}
+
+.second-section .testimonials .quotes {
+    width: 12px;
+    height: 12px;
+    margin-bottom: 0;
+    margin-right: 264px;
+}
+
+.second-section .testimonials p {
+    font-size: 10px;
+    text-align: left;
+}
+
+.second-section .testimonials .img-name {
+    display: flex;
+    gap: 10px;
+}
+
+.second-section .testimonials .img-name img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.second-section .testimonials .img-name .name-description {
+    width: 150px;
+    height: px;
+}
+
+.second-section .testimonials .img-name .name-description .name {
+    font-size: 9px;
+    font-family: var(--font-family-title-button-links);
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.second-section .testimonials .img-name .name-description .job {
+    font-size: 6px;
+    font-family: -font-family-title-text;
+    font-weight: 400;
+    line-height: 1px;
+}
