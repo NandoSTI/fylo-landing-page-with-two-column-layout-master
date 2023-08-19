@@ -1,0 +1,99 @@
+.footer {
+    background-color: var(--bg-background-footer);
+    color: var(--text-support-footer);
+    padding: 65px 39px;
+}
+
+.footer .contact .logo-footer {
+    width: 105px;
+    height: 30px;
+    margin-bottom: 32px;
+}
+
+.footer .contact .phone {
+    font-family: var(--font-family-title-text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.footer .contact .phone::before {
+    content: url(../images/icon-phone.svg);
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.footer .contact .email {
+    font-family: var(--font-family-title-text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.footer .contact .email::before {
+    content: url(../images/icon-email.svg);
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.footer .about {
+    margin-bottom: 40px;
+}
+
+.footer .about a {
+    font-family: var(--font-family-title-text);
+    color: var(--text-support-footer);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer .about ul li {
+    margin-bottom: 16px;
+}
+
+.footer .team a {
+    font-family: var(--font-family-title-text);
+    color: var(--text-support-footer);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer .team ul li {
+    margin-bottom: 16px;
+} 
+
+.footer .social {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.footer .social a i::before {
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--text-support-footer);
+    border-radius: 50%;
+    display: block;
+    line-height: 30px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+    }
+
+    .footer .social {
+        margin-top: 0;
+    }
+}
+
