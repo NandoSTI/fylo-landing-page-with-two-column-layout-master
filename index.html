@@ -16,14 +16,17 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/c62a2416d2.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/c62a2416d2.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/variables.css" />
     <link rel="stylesheet" href="src/css/header.css" />
     <link rel="stylesheet" href="src/css/firstsection.css" />
     <link rel="stylesheet" href="src/css/secondsection.css" />
     <link rel="stylesheet" href="src/css/support.css" />
-    <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="src/css/footer.css" />
     <link rel="stylesheet" href="src/css/global.css" />
 
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
@@ -50,12 +53,15 @@
             and co-workers.
           </p>
           <form>
-            <input
+            <div>
+              <input
               type="email"
               name="email"
               id="email"
               placeholder="Enter your email…"
             />
+            <p class="text-error">Please, check your email</p>
+            </div>
             <button type="submit">Get Started</button>
           </form>
         </div>
@@ -125,7 +131,7 @@
       </section>
       <footer class="footer">
         <div class="contact">
-          <img src="src/images/Group 4.svg" alt="logo" class="logo-footer">
+          <img src="src/images/Group 4.svg" alt="logo" class="logo-footer" />
           <p class="phone">Phone: +1-543-123-4567</p>
           <p class="email">example@fylo.com</p>
         </div>
@@ -150,12 +156,19 @@
         </div>
         <nav>
           <ul class="social">
-            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li>
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </li>
           </ul>
         </nav>
       </footer>
     </main>
+    <script src="src/js/index.js"></script>
   </body>
 </html>

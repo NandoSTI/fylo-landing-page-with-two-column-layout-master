@@ -8,6 +8,7 @@
     --bg-support: hsla(238, 22%, 44%, 1);
     --text-support-footer: #FFFFFF;
     --bg-background-footer: hsla(243, 87%, 12%, 1);
+    --validate: #EF4877;
 }
 
 :root {
