@@ -96,7 +96,7 @@
         gap: 10px;
     }
 
-    .firt-section form .error {
+    .firt-section form .text-error {
         font-family: var(--font-family-title-button-links);
         margin-top: -15px;
         text-align: start;
