@@ -95,5 +95,20 @@
     .footer .social {
         margin-top: 0;
     }
+
+    .footer .about a:hover,
+    .footer .team a:hover {
+        color: var(--bright-blue);
+    }
+
+    .footer .social a i:hover {
+        color: var(--bright-blue);
+    }
+
+    .footer .social a:hover i::before {
+        border: 1px solid var(--bright-blue);
+    }
+
+
 }
 
